@@ -1,0 +1,82 @@
+# ============================================================
+# Vivado / Xilinx .gitignore
+# ============================================================
+
+# Vivado project files (auto-generated, can be recreated)
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+*.bit
+*.ltx
+*.rpt
+*.xpr.bak
+
+# Vivado project directories
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+*.sdk/
+*.xpr
+
+# Do NOT ignore .xpr if you want to track the project file.
+# Comment the line above and uncomment below if needed:
+# !*.xpr
+
+# IP cores (generated files)
+*.xci
+*.xml
+*.veo
+*.vho
+
+# Simulation output
+*.wdb
+*.wcfg
+
+# Implementation output
+*.ncd
+*.ngd
+*.ngc
+*.ngr
+*.pcf
+*.twr
+*.twx
+*.unroutes
+*.xwbt
+
+# iSim files
+isim/
+isim.exe
+isim.log
+isim.wdb
+fuse.log
+fuseRelaunch.cmd
+
+# Modelsim / Questa
+work/
+transcript
+vsim.wlf
+*.vcd
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
